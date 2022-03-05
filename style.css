@@ -1,0 +1,85 @@
+    body {
+        background-color: #1D1F3E;
+    }
+    
+    .first {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .first h1 {
+        margin-left: -4px;
+        color: #AAC0F9;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    
+    .first h4 {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    #page1 {
+        min-height: 600px;
+        width: auto;
+    }
+    
+    .service {
+        margin-top: 210px;
+        /* background-imag: url("/img/Group 7.png"); */
+        background-color: whitesmoke;
+    }
+    
+    #servis h5 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    
+    #cardser {
+        background-color: rgb(251, 251, 254);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    
+    #cardser p {
+        font-size: 14px;
+        color: #576ee3
+    }
+    
+    .overlay {
+        border-radius: 10px 10px 0px 00px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(29, 31, 62, 0.623);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .3s ease;
+    }
+    
+    .containers:hover .overlay {
+        height: 20%;
+    }
+    
+    .containers:hover .image {
+        filter: blur(1px);
+    }
+    
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    /* .awal {
+        max-width: 400px;
+    } */
